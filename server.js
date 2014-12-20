@@ -14,4 +14,6 @@ app
             res.sendfile('public/main.html');
         }
     })
-    .listen(3000);
+    .listen(3000, function(){
+    console.log("server running @ 3000");
+  });
