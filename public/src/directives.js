@@ -16,8 +16,8 @@ angular.module('ContactsApp')
   .directive('formField', function ($timeout, FieldTypes) {
     return {
       restrict   : 'EA',
-      templateUrl: 'views/form-field.html',
       replace    : true,
+      templateUrl: 'views/form-field.html',
       scope      : {
         record  : '=',
         field   : '@',
